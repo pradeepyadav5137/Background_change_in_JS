@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Change in Js</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="background">
+
+        <div class="button">
+            <button onclick="handleChange('rgb(61, 60, 60)')" style="background-color: rgb(61, 60, 60);">Dark</button>
+            <button onclick="handleChange('yellow')" style="background-color: yellow; color: black;">Yellow</button>
+            <button onclick="handleChange('red')" style="background-color: red">Red</button>
+            <button onclick="handleChange('black')" style="background-color: black;">Black</button>
+            <button onclick="handleChange('white')" style="background-color: white; color: black;">White</button>
+            <button onclick="handleChange('maroon')" style="background-color: maroon">Maroon</button>
+        </div>
+        <div class="img">
+            <label for="imageInput">Choose image as a Background</label><br>
+            <input type="file" id="imageInput" accept="image/*" onchange="handleImage()">
+        </div>
+    </div>
+<script src="background.js"></script>
+</body>
+
+</html>
