@@ -71,6 +71,7 @@ border: 5px black solid;
 @media (max-width: 768px) {
     .button {
         left: 10%;
+        bottom: 22%;
         flex-wrap: wrap;
     }
 

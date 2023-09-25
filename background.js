@@ -15,6 +15,4 @@ function handleImage(){
      back.style.backgroundRepeat = 'no-repeat';
      back.style.backgroundPosition = 'center center';
  }
-
-
 }
